@@ -1,0 +1,104 @@
+/* Footer Styles */
+.container {
+  padding: 2rem; /* Padding around the footer */
+  background-color: #f8f9fa; /* Light background */
+  color: #333; /* Dark text */
+  text-align: left; /* Align text to the left */
+}
+
+hr {
+  margin: 1rem 0; /* Vertical space around horizontal rule */
+  border: 1px solid #ccc; /* Slightly thicker line for better visibility */
+}
+
+.content {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  gap: 2rem; /* Space between sections */
+}
+
+.logo {
+  display: flex;
+  justify-content: center; /* Center logo */
+  margin-bottom: 1rem; /* Space below logo */
+}
+
+.logo-img {
+  width: 120px; /* Adjusted logo width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+h4 {
+  margin-bottom: 1rem; /* Space below headings */
+  font-weight: 600; /* Bold headings */
+  color: #271776; /* Change heading color for better branding */
+}
+
+ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+}
+
+li {
+  margin: 0.5rem 0; /* Space between list items */
+}
+
+li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff; /* Default link color */
+  transition: color 0.3s, font-weight 0.3s; /* Smooth transition */
+}
+
+li a:hover {
+  color: #0056b3; /* Darker color on hover */
+  font-weight: bold; /* Make text bold on hover for emphasis */
+}
+
+.hours {
+  display: flex;
+  flex-direction: column; /* Stack hours vertically */
+}
+
+.hours ul {
+  padding-left: 0; /* Remove padding from ul */
+}
+
+.hours li {
+  display: flex;
+  justify-content: space-between; /* Space between day and time */
+}
+
+.hours span {
+  font-weight: 400; /* Normal font weight for time */
+}
+
+div {
+  display: flex; /* Use flexbox for contact info */
+  align-items: center; /* Center items vertically */
+  margin: 0.5rem 0; /* Space between contacts */
+}
+
+div svg {
+  margin-right: 0.5rem; /* Space between icon and text */
+  color: #007bff; /* Color for icons */
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column; /* Stack all sections vertically on small screens */
+    align-items: center; /* Center content on smaller screens */
+  }
+  
+  .logo-img {
+    width: 100px; /* Smaller logo on mobile */
+  }
+
+  h4 {
+    text-align: center; /* Center headings on mobile */
+  }
+}
+
+
+@media (forced-colors: active) {
+  /* Your styles for forced colors mode */
+}

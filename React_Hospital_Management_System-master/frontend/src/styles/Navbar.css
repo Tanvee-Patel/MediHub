@@ -1,0 +1,197 @@
+/* Apply this globally */
+* {
+  box-sizing: border-box; /* Ensure padding and borders are included in total width/height */
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default paddings */
+}
+
+body, html {
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Navbar styling */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Add horizontal padding */
+  background-color: rgb(188, 214, 245); 
+  width: 100%;
+  height: 60px; /* Fixed height */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.logo-img {
+  max-height: 50px; /* Ensure logo doesn't exceed navbar height */
+  height: auto; 
+  width: auto; 
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #000; /* Color for links */
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 14px; 
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s; /* Add color transition */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Change cursor for buttons */
+}
+
+.btn:hover {
+  background-color: #000000; 
+  color: #fff; /* Change text color on hover */
+}
+
+.registerBtn {
+  background-color: black; /* Set background color to black */
+  color: white; /* Set text color to white for contrast */
+  border: none; /* Remove default button border */
+}
+
+/* .registerBtn:hover {
+  background-color: #333; Darker shade on hover for feedback 
+} */
+
+
+
+
+/* 
+
+@media (forced-colors: active) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(188, 214, 245); 
+    width:100%;
+    height: 60px;
+    overflow: hidden;
+    margin: 0 auto; 
+  }
+  
+  .logo-img {
+    width: auto;
+    height: auto; 
+  }
+  
+  .navLinks {
+    display: flex;
+    align-items: center;
+  }
+  
+  .links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 1px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .btn {
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 14px; 
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #000000; 
+  }  */
+  
+  /* nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111; /* Change the background color as needed */
+    /* padding: 20px; */
+  /* 
+  
+  .logo {
+    flex: 1;
+  }
+  
+  .logo-img {
+    width: 150px;
+  }
+  
+  .navLinks {
+    flex: 2;
+  }
+  
+  .links {
+    display: flex;
+  }
+  
+  .link {
+    color: #fff; /* Set the color of navigation links to white 
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  .btn {
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .loginBtn {
+    background-color: #646cff;
+    color: #fff; 
+  }
+  
+  .registerBtn {
+    background-color: #9083d5; 
+    color: #fff; 
+  }
+  
+  .logoutBtn {
+    background-color: #ff3d3d; 
+    color: #fff;
+  } */
+/* } */
