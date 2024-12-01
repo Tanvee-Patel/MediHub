@@ -69,7 +69,7 @@ const Dashboard = () => {
             <div>
               <p>Hello,</p>
               <h5>
-                {admin && `${admin.firstName} ${admin.lastName}`}
+                {admin && `${admin.firstName}`}
               </h5>
             </div>
             <p>

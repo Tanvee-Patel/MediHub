@@ -22,6 +22,11 @@ const Biography = ({ imageUrl }) => {
           <li>Eliminating Manual Processes</li>
           <li>Effective Resource Management</li>
         </ul>
+        <br></br>
+        <h4>Contact Us</h4>
+        <p>Telephone no: +0261 2361257</p>
+        <p>Email: medi@hub.org</p>
+
       </div>
     </div>
   );

@@ -32,9 +32,9 @@ const appointmentSchema = new mongoose.Schema({
     required: [true, "NIC Is Required!"],
     validate: {
       validator: function (v) {
-        return /^[0-3]{4}$/.test(v);  // Ensures exactly 13 digits
+        return /^[0-9]{4}$/.test(v);  // Ensures exactly 13 digits
       },
-      message: "NIC Must Contain Exactly 13 Digits!",
+      message: "NIC Must Contain Exactly 4 Digits!",
     },
   },
   dob: {

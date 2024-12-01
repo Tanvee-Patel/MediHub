@@ -78,14 +78,14 @@ const Sidebar = () => {
             <IoPersonAddSharp aria-label="Add New Doctor" />
             <span>Add New Doctor</span>
           </div>
-          <div onClick={() => navigateToPage("/patients")}>
+          {/* <div onClick={() => navigateToPage("/patients")}>
             <BsPeopleFill aria-label="Patients" />
             <span>Patients</span>
           </div>
           <div onClick={() => navigateToPage("/receptionists")}>
             <HiUserGroup aria-label="Receptionists" />
             <span>Receptionists</span>
-          </div>
+          </div> */}
           <div onClick={() => navigateToPage("/messages")}>
             <AiFillMessage aria-label="Messages" />
             <span>Messages</span>

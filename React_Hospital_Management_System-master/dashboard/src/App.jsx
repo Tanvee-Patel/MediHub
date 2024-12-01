@@ -5,8 +5,8 @@ import Login from "./components/Login";
 import AddNewDoctor from "./components/AddNewDoctor";
 import Messages from "./components/Messages";
 import Doctors from "./components/Doctors";
-import Patients from "./components/Patients";
-import Receptionists from "./components/Receptionists";
+// import Patients from "./components/Patients";
+// import Receptionists from "./components/Receptionists";
 import { Context } from "./main";
 import axios from "axios";
 import { ToastContainer } from "react-toastify";
@@ -58,8 +58,8 @@ const App = () => {
         <Route path="/admin/addnew" element={<ProtectedRoute element={<AddNewAdmin />} isAuthenticated={isAuthenticated} />} />
         <Route path="/messages" element={<ProtectedRoute element={<Messages />} isAuthenticated={isAuthenticated} />} />
         <Route path="/doctors" element={<ProtectedRoute element={<Doctors />} isAuthenticated={isAuthenticated} />} />
-        <Route path="/patients" element={<ProtectedRoute element={<Patients />} isAuthenticated={isAuthenticated} />} />
-        <Route path="/receptionists" element={<ProtectedRoute element={<Receptionists />} isAuthenticated={isAuthenticated} />} />
+        {/* <Route path="/patients" element={<ProtectedRoute element={<Patients />} isAuthenticated={isAuthenticated} />} />
+        <Route path="/receptionists" element={<ProtectedRoute element={<Receptionists />} isAuthenticated={isAuthenticated} />} /> */}
       </Routes>
       <ToastContainer position="top-center" />
     </Router>
